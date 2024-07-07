@@ -1,0 +1,18 @@
+{
+    "action":"set",
+    "mac":["00:17:62:51:29:21"],
+    "password":"admin",
+    "dataList":
+        [{
+        "url_path":"/apply.cgi",
+        "method":"POST",
+        "Template":"register",
+        "data":
+            {
+            "action":"mode_set",
+            "mode":"1",
+            "username":"prouser",
+            "password":"admin" 
+            }
+        }]
+}
